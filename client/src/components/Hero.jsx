@@ -31,8 +31,8 @@ const Hero = () => {
         </div>
         
         <div style={{ marginTop: '2rem', marginLeft: '5vw', maxWidth: '600px' }}>
-          <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '1.5rem', lineHeight: 1.8 }}>
-            <strong>Aditya Singh</strong> | Full Stack Developer <br/>
+          <p className="sparkle-hover" style={{ fontSize: '1.2rem', color: 'var(--text-muted)', marginBottom: '1.5rem', lineHeight: 1.8 }}>
+            <strong style={{ color: '#fff' }}>Aditya Singh</strong> | Full Stack Developer <br/>
             Computer Science Engineering student crafting scalable web architectures, fast UI interfaces, and robust APIs.
           </p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>

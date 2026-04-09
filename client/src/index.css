@@ -72,6 +72,27 @@ h1, h2, h3, h4, .oxanium-text {
   text-shadow: 0 0 20px rgba(0, 168, 255, 0.3);
 }
 
+.sparkle-hover {
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.sparkle-hover:hover {
+  background: linear-gradient(90deg, var(--text-muted) 0%, rgba(255,255,255,1) 25%, var(--accent-blue) 50%, rgba(255,255,255,1) 75%, var(--text-muted) 100%);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1.5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
 @keyframes fadeInOut {
   0% { opacity: 0; transform: translateY(20px); }
   10% { opacity: 1; transform: translateY(0); }

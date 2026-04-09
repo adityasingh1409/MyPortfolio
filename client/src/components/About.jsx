@@ -11,7 +11,7 @@ const About = () => {
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', zIndex: 10 }}>
         <div>
           <h2 className="oxanium-text" style={{ fontSize: '3rem', marginBottom: '2rem' }}>LOGIC & VISUAL INTENTION.</h2>
-          <p style={{ fontSize: '1.1rem', color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: 1.8 }}>
+          <p className="sparkle-hover" style={{ fontSize: '1.1rem', color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: 1.8 }}>
             I'm Aditya, a Full Stack Developer and Computer Science Engineering student focused on crafting clear, modern interfaces that balance aesthetic design and powerful algorithmic functionality.
           </p>
           
