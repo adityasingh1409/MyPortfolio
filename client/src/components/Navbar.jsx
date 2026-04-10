@@ -5,8 +5,7 @@ const Navbar = () => {
     <nav style={{ position: 'fixed', top: 0, width: '100%', padding: '2rem 5vw', display: 'flex', justifyContent: 'space-between', zIndex: 100, background: 'linear-gradient(to bottom, rgba(2,2,2,0.9), transparent)' }}>
       <a href="#" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textDecoration: 'none', gap: '0.4rem' }}>
         <div style={{ width: '45px', height: '45px', borderRadius: '50%', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', border: '2px solid var(--accent-blue)', boxShadow: '0 0 10px var(--accent-glow)', transition: 'transform 0.3s ease' }} onMouseOver={e => e.currentTarget.style.transform = 'scale(1.1)'} onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}>
-          <i className="ph-fill ph-user" style={{ fontSize: '1.8rem', color: 'var(--text-muted)' }}></i>
-          {/* <img src="/your-future-image.jpg" alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> */}
+          <img src="/mypic.jpg" alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
         <span className="oxanium-text" style={{ fontSize: '1rem', fontWeight: 800, color: '#fff', letterSpacing: '1px' }}>
           ADITYA SINGH
